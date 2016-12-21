@@ -1,7 +1,7 @@
 from distutils.core import setup
 
 setup(
-    name='dummy-module',
+    name='dummy_module',
     version='0.1',
     packages=['', 'circuit', 'circuit.modules'],
     url='',
@@ -10,5 +10,5 @@ setup(
     author_email='',
     description='',
     install_requires=['up'],
-    package_data=['CircuitFile']
+    package_data={'':'CircuitFile'}
 )
