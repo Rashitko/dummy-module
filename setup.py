@@ -9,5 +9,5 @@ setup(
     author='michal',
     author_email='',
     description='',
-    install_requires=['up']
+    install_requires=['up'],
 )
