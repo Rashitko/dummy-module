@@ -14,3 +14,6 @@ class DummyModule(BaseStartedModule):
     def _execute_stop(self):
         super()._execute_stop()
         self.logger.debug("Dummy Stopping")
+
+    def load(self):
+        return True
