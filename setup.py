@@ -10,4 +10,5 @@ setup(
     author_email='',
     description='',
     install_requires=['up'],
+    package_data=['CircuitFile']
 )
